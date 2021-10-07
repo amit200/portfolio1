@@ -1,0 +1,45 @@
+.card{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+//subect include all part of card
+.subject{
+    margin: 10px;
+    padding:0px;
+    height:270px;
+}
+// card-component is part of subject component
+.card_component img{
+    width: 100%;
+    margin: 0;
+  
+}
+.mat-card-title{
+    margin:15px; 
+    display:flex;
+
+}
+.bottom{
+    display: flex;
+    margin-top: 10px;
+    margin: 5px;
+}
+.icon{
+    display: flex;
+    // margin-top: 20px;
+    margin: 5px;
+    margin-bottom: 37px;
+  }
+
+.date{
+    margin-top: 0px;
+    margin: 8px;
+}
+.foodNo{
+    margin-left: 100px;
+    margin-top: 6px;
+}
+.mat-card-header .mat-card-title {
+    margin-bottom: 1px;
+}

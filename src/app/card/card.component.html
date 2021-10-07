@@ -1,0 +1,25 @@
+<!-- <p>card works!</p> -->
+<div class="card">
+  <mat-card class="subject" *ngFor="let subject of number">
+    <div class="card_component">
+      <img src="{{ subject.image }}" />
+      <mat-card-content>
+        <mat-card-header>
+          <mat-card-title>{{ subject.name }}</mat-card-title>
+        </mat-card-header>
+        <div class="bottom">
+            <div class="icon">
+              <img src="{{ subject.icon }}" />
+            </div>
+            <div class="date">
+              {{ subject.date }}
+            </div>
+            <div class="foodNo">
+              {{ subject.foodNo }}
+            </div>
+          </div>
+      </mat-card-content>
+      
+    </div>
+  </mat-card>
+</div>
